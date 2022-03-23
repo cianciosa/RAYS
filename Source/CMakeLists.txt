@@ -5,4 +5,5 @@ target_sources (rays
                 $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/backtrace.c>
                 $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/assert.f90>
                 $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/equilibrium_interface.f90>
+                $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/slab_equilibrium.f90>
 )
